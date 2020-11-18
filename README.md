@@ -5,4 +5,4 @@ Site do Aluno UFC
 
 Gerenciador de disciplina e Calculadora de IRA
 
-<img src="/Aluno-UFC-Website/images/aluno-ufc-light.png" alt="Captura de tela">
+<img src="images/aluno-ufc-light.png" alt="Captura de tela">
