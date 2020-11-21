@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;
@@ -130,6 +125,18 @@ a:active,
     font-weight: bold;
 }
 
+.body_link {
+    color: rgb(54, 18, 107);
+}
+
+.body_link:hover {
+    color: rgba(54, 18, 107, 0.5);
+}
+
+.body_link:visited {
+    color: rgb(168, 77, 133);
+}
+
 
 /* Dark theme */
 
@@ -141,6 +148,15 @@ a:active,
     }
     .container_1 {
         background-color: rgb(54, 18, 107);
+    }
+    .body_link {
+        color: white;
+    }
+    .body_link:hover {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .body_link:visited {
+        color: rgb(209, 96, 166);
     }
 }
 

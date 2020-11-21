@@ -4,9 +4,9 @@ const manifest = document.getElementById('manifest');
 
 function switchIcon(usesDarkMode) {
     if (usesDarkMode) {
-        favicon.href = 'images/app-logo-dark.png';
+        favicon.href = 'https://luandersonn.com/alunoufc/images/app-logo-dark.png';
     } else {
-        favicon.href = 'images/app-logo-light.png';
+        favicon.href = 'https://luandersonn.com/alunoufc/images/app-logo-light.png';
     }
 }
 
