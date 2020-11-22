@@ -109,22 +109,6 @@ body {
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.6));
 }
 
-#footer_info a,
-#luandersonn_site_link {
-    width: 60px;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: center;
-    text-decoration: none;
-    color: inherit
-}
-
-#footer_info a:hover,
-a:active,
-#luandersonn_site_link:hover {
-    font-weight: bold;
-}
-
 .body_link {
     color: rgb(54, 18, 107);
 }
@@ -135,6 +119,32 @@ a:active,
 
 .body_link:visited {
     color: rgb(168, 77, 133);
+}
+
+.footer_link {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.footer_link:hover {
+    text-decoration: underline;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.image_link img {
+    width: 48px;
+    height: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: inherit;
+}
+
+.image_link:hover {
+    text-decoration: none;
+    font-weight: normal;
 }
 
 
