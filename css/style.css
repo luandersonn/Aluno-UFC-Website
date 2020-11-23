@@ -134,6 +134,16 @@ body {
     font-weight: bold;
 }
 
+.attribution {
+    font-size: 13px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.attribution:hover {
+    opacity: 1;
+}
+
 .image_link img {
     width: 48px;
     height: 48px;
