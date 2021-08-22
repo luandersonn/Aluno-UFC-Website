@@ -3,7 +3,7 @@
     height: 8px;
 }
 
- ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     opacity: 0;
 }
 
@@ -20,11 +20,11 @@
     background-color: rgb(110, 110, 110);
 }
 
- ::-webkit-scrollbar-thumb:vertical:active {
+::-webkit-scrollbar-thumb:vertical:active {
     background: rgba(95, 91, 91, 1);
 }
 
- ::-webkit-scrollbar-corner {
+::-webkit-scrollbar-corner {
     background: none;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .app_header {
-    background-image: url("../images/hero-image.jpg");
+    background-image: url("https://luandersonn.com/images/alunoufc/hero-image.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -161,20 +161,25 @@ body {
 /* Dark theme */
 
 @media screen and (prefers-color-scheme: dark) {
+
     body,
     .container_2 {
         color: white;
         background-color: #1d1d1d;
     }
+
     .container_1 {
         background-color: rgb(54, 18, 107);
     }
+
     .body_link {
         color: white;
     }
+
     .body_link:hover {
         color: rgba(255, 255, 255, 0.5);
     }
+
     .body_link:visited {
         color: rgb(209, 96, 166);
     }
@@ -188,10 +193,12 @@ body {
         /* from "75%" */
         width: 100%;
     }
+
     #features_list {
         /* from "auto auto" */
         grid-template-columns: auto;
     }
+
     .features_list_item {
         /* from "420px" */
         max-width: 750px;
